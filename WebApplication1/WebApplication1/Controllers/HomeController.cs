@@ -33,5 +33,11 @@ namespace WebApplication1.Controllers
 
             return View();
         }
+        public ActionResult Branch2()
+        {
+            ViewBag.Message = "Your contact page.";
+
+            return View();
+        }
     }
 }
