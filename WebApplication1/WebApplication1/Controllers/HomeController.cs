@@ -53,5 +53,12 @@ namespace WebApplication1.Controllers
 
             return View();
         }
+        public ActionResult CI_1()
+        {
+            ViewBag.Message = "Your contact page.";
+
+            return View();
+        }
+
     }
 }
